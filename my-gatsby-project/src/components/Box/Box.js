@@ -16,8 +16,8 @@ const MyBox = () => {
   )
 }
 
-const MyIcon = () => {
-    return <IconName />
-  }
+// const MyIcon = () => {
+//     return <IconName />
+//   }
 
 export default MyBox

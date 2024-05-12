@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'styled-components'
-import MyBox from './Box/Box'
+import Box from './Box/Box'
 
-const theme = {
+export const theme = {
   colors: {
     primary: '#007bff',
     text: '#333',
@@ -9,10 +9,11 @@ const theme = {
 }
 
 const MyApp = () => {
-  return (
-    <ThemeProvider theme={theme}>
-      <MyBox />
-    </ThemeProvider>
-  )
+  // return (
+  //   // <ThemeProvider theme={theme}>
+  //   //   <Box />
+  //   // </ThemeProvider>
+  // )
 }
 
+export default ThemeProvider;
