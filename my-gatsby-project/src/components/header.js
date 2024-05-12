@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => (
+const Header1 = ({ siteTitle }) => (
   <header
     style={{
       margin: `0 auto`,
@@ -29,4 +29,4 @@ const Header = ({ siteTitle }) => (
   </header>
 )
 
-export default Header
+export default Header1

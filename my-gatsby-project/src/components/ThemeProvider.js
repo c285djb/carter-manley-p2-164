@@ -1,9 +1,9 @@
 import { ThemeProvider } from 'styled-components'
-import Box from './Box/Box'
+//import Box from './Box/Box'
 
 export const theme = {
   colors: {
-    primary: '#007bff',
+    primary: '#e58b65',
     text: '#333',
   },
 }

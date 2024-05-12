@@ -1,23 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Box } from 'rebass'
-import myGif from './GrizzlyCharacterGif.gif'
-
-//import { IconName } from 'styled-icons/material'
+import myGif from './CamperCharacterGIF.gif'
 
 const CenteredContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh; 
+  height: 30vh; 
 `
-
 const StyledBox = styled(Box)`
   background-color: ${(props) => props.theme.colors.primary};
   color: ${(props) => props.theme.colors.text};
   width: 50%;
   height: 300px; 
-  margin: 5px auto; 
+  margin: 20px auto; 
   padding: 20px; 
 `
 const Header = styled.h2`
@@ -25,25 +22,26 @@ const Header = styled.h2`
 `
 
 const Gif = styled.img`
-  width: 50%;
+  width: 20%;
   float: left;
   margin-right: 20px;
 `
 
 const Text = styled.p`
-  width: 45%; 
-  float: left; 
+  width: 45%; /* Adjust the width of the text */
+  float: left; /* Float the text to the left */
 `
 
-const MyBox = () => {
+const MyBox2 = () => {
   return (
     <CenteredContainer>
     <StyledBox>
-      <Header>Big John Henry</Header>
+      <Header>Camper</Header>
       <Gif src={myGif} alt="My GIF" />
       <Text>
-        Big John Henry is a bear of legendary strength. The locals say he's 7 foot tall if he was an inch! Big JH has lived a peaceful life in the high mountains
-        of Bearface ridge, but recently the Bearface Logging Company has cut too close to home... now Big John Henry is about to show his mean side...  
+        This camper isn't as innocent as he seems! He will run, jump, and stop at nothing to chop down your favorite tree. 
+        While he doesn't have an attack as deadly as some of his compadres, don't let this fool get close to your lumber, or he'll
+        chop it down quickly!
       </Text>
     </StyledBox>
     </CenteredContainer>
@@ -51,5 +49,4 @@ const MyBox = () => {
 }
 
 
-
-export default MyBox
+export default MyBox2
