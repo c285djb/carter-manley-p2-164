@@ -1,5 +1,5 @@
 import { ThemeProvider } from 'styled-components'
-//import Box from './Box/Box'
+
 
 export const theme = {
   colors: {

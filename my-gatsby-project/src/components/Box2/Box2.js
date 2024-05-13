@@ -28,8 +28,8 @@ const Gif = styled.img`
 `
 
 const Text = styled.p`
-  width: 45%; /* Adjust the width of the text */
-  float: left; /* Float the text to the left */
+  width: 45%; 
+  float: left; 
 `
 
 const MyBox2 = () => {
